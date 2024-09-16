@@ -1,11 +1,13 @@
 # Face-Mask-Detection
-To run this project, you need to install the required Python dependencies. These dependencies are listed in the requirements.txt file. Follow the steps below to set up your environment:
+This project implements a Face Mask Detection system using a trained YOLOv8 model. It classifies faces in images or video streams into three categories:
 
-1. Create a Virtual Environment (Optional but Recommended)
-Before installing the dependencies, it’s a good practice to create a virtual environment to isolate your project's packages from your global Python environment.
-
-python -m venv venv
-
+With Mask: Faces wearing a mask correctly.
+Without Mask: Faces not wearing a mask.
+Incorrectly Worn Mask: Faces wearing a mask incorrectly.
+Key Features
+Multi-Class Detection: Detects three mask categories using YOLOv8.
+MAPE Calculation: Evaluates model performance with Mean Absolute Percentage Error (MAPE).
+Real-Time Detection: Can be used for live video feeds.
 
 
 On Windows:
