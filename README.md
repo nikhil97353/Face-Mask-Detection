@@ -10,8 +10,6 @@ Multi-Class Detection: Detects three mask categories using YOLOv8.
 MAPE Calculation: Evaluates model performance with Mean Absolute Percentage Error (MAPE).
 Real-Time Detection: Can be used for live video feeds.
 
-2. Install Dependencies
-Once your virtual environment is activated (or if you are using your default environment), run the following command to install all the dependencies:
-
+Install Dependencies:
 
 pip install -r requirements.txt
