@@ -26,8 +26,12 @@ This project implements a real-time **Face Mask Detection** system using the **Y
    ```bash
    git clone https://github.com/yourusername/Face-Mask-Detection.git
    cd Face-Mask-Detection
+2. Install dependencies:
+
+   ```bash
+    pip install -r requirements.txt
+
+3. Download pre-trained weights: The model requires pre-trained weights for YOLOv8. You can download them and place them in the appropriate folder.
+Example weight file: weights_resnet.pth
 
 
-Install Dependencies:
-
-pip install -r requirements.txt
