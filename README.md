@@ -1,14 +1,32 @@
-# Face-Mask-Detection
-The system is built to help monitor and enforce face mask compliance in public places by providing real-time detection from images or video feeds. This project aims to provide accurate face mask detection and classification using a trained model with three key mask classes: with_mask, without_mask, and mask_weared_incorrect. Real-Time Detection: The system can be deployed on live video streams for real-time monitoring.
-This project implements a Face Mask Detection system using a trained YOLOv8 model. It classifies faces in images or video streams into three categories:
 
-With Mask: Faces wearing a mask correctly.
-Without Mask: Faces not wearing a mask.
-Incorrectly Worn Mask: Faces wearing a mask incorrectly.
-Key Features
-Multi-Class Detection: Detects three mask categories using YOLOv8.
-MAPE Calculation: Evaluates model performance with Mean Absolute Percentage Error (MAPE).
-Real-Time Detection: Can be used for live video feeds.
+# Face Mask Detection System
+
+This project implements a real-time **Face Mask Detection** system using the **YOLOv8** model. It helps monitor and enforce face mask compliance in public places by detecting and classifying face mask usage in images or video feeds.
+
+## Key Features
+
+- **Multi-Class Detection**: The system classifies faces into three categories:
+  1. **With Mask**: Faces wearing a mask correctly.
+  2. **Without Mask**: Faces not wearing a mask.
+  3. **Incorrectly Worn Mask**: Faces wearing a mask incorrectly.
+  
+- **Real-Time Detection**: Capable of processing live video streams for real-time monitoring.
+  
+- **MAPE Calculation**: The system evaluates model performance using **Mean Absolute Percentage Error (MAPE)**.
+
+## How It Works
+
+1. **Model**: A pre-trained YOLOv8 model is used to detect faces and classify them into the three categories mentioned above.
+2. **Data**: The system is trained on a dataset containing images of people with various mask-wearing statuses.
+3. **Real-Time Application**: The trained model can be deployed on live video streams to provide instant feedback about mask compliance.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/Face-Mask-Detection.git
+   cd Face-Mask-Detection
+
 
 Install Dependencies:
 
